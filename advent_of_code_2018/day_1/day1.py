@@ -1,2 +1,2 @@
-def get_num():
-    return "2"
+def add_frequencies(numbers):
+    return sum(list(map(int, numbers)))
