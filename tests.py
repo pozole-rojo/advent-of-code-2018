@@ -8,7 +8,7 @@ import os.path
 import subprocess
 import sys
 
-PACKAGE_DIR = '{{ package_dir_name }}'
+PACKAGE_DIR = 'advent_of_code_2018'
 
 
 def main(args):

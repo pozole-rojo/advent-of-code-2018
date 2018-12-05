@@ -1,6 +1,3 @@
-# docker-in-docker
-.docker
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -69,6 +66,3 @@ venv/
 
 # Vim swap files
 *.swp
-.*.swp
-*~
-.*~
