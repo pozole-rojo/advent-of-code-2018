@@ -1,9 +1,6 @@
 language: python
 matrix:
   include:
-    - python: 2.7
-      env:
-      - TOXENV=py27
     - python: 3.4
       env:
       - TOXENV=py34
@@ -30,7 +27,7 @@ deploy:
   user: pozole-rojo
   distributions: sdist bdist_wheel
   on:
-    condition: $TOXENV == py27
+    condition: $TOXENV == py36
     tags: true
     all_branches: true
     repo: pozole-rojo/advent-of-code-2018
